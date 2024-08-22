@@ -599,6 +599,17 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "types-psycopg2"
+version = "2.9.21.20240819"
+description = "Typing stubs for psycopg2"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-psycopg2-2.9.21.20240819.tar.gz", hash = "sha256:4ed6b47464d6374fa64e5e3b234cea0f710e72123a4596d67ab50b7415a84666"},
+    {file = "types_psycopg2-2.9.21.20240819-py3-none-any.whl", hash = "sha256:c9192311c27d7ad561eef705f1b2df1074f2cdcf445a98a6a2fcaaaad43278cf"},
+]
+
+[[package]]
 name = "types-requests"
 version = "2.32.0.20240712"
 description = "Typing stubs for requests"
@@ -643,4 +654,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "747d46d89a257c5d62f04a491ecdd35aac3b9505c8cac73bf853980d72eaac83"
+content-hash = "d76ccc0859b283d91190eb05954b7ff6bfc9552fc61faf7db4b235a1ff2d8d6c"
